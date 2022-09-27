@@ -1,0 +1,28 @@
+#what .items{
+  display: block;
+}
+
+/* Smartphones */
+ @media (max-width:500px){
+   #navbar{
+     flex-direction: column;
+     align-items: center;
+   }
+
+   #navbar .logo{
+     margin-bottom: 0.5rem;
+     text-align: center;
+   }
+
+   #navbar ul{
+     padding: 0.5rem;
+   }
+
+   #who{
+     display: block;
+   }
+
+   #who .whoimg{
+     display: none;
+   }
+ }
